@@ -1,0 +1,61 @@
+			         NUGGET DUMP
+###################################################################################
+			  ==========================
+			  Welcome to the NUGGET-DOME
+		  	  ==========================
+
+Objective: clear your `nugget_queue` of NUGGETS by sending them to other players as
+           quickly as possible.
+
+Details:   You have been given a variable called:
+		- nugget_queue
+	   `nugget_queue` is your interface to a client-program which automagically
+	   sends NUGGETs to the player in front of you.
+
+           You have been given a function called:
+                - new_queue()  
+           Calling `new_queue()` will revert your queue back to the 40Kb/s default.
+
+           What is a NUGGET you so aptly ask? 
+		Answer: IT'S A FUCKING DATA.
+           (nuggets may vary in size.)
+
+Rules:     
+           - DUMP ALL YOUR NUGGETS B4 THEY ARE ALL DUMPED ON YOU.
+           - THE FIRST PERSON TO DUMP ALL THEIR NUGGETS WINS.
+Mas Rules:
+
+           - YOU MAY NOT - touch the inbound-nugget logic and/or prevent incomming
+             traffic in any way. `nugget_queue` will automagically convert inbound 
+             traffic to 1Kb nuggets and store them in your `nugget_queue`
+
+           - YOU MAY NOT - inject arbitrary nuggets into your queue. There is a
+             set number of nuggets which may exist in the game. You are building a
+             queue, do not touch the data.
+
+           - YOU MAY - replace `nugget_queue` at any time. Replacing your queue
+             will initiate the transfer of your current nuggets & any received 
+             during variable reassignment, into it.
+           
+           - YOU MAY - replace `nugget_queue` with a broken queue which doesn't 
+             work. If your `nugget_queue` does not send nuggets or in any way 
+             interferes with the underlying game-logic, you will suffer a penalty
+             of 10 seconds, after which `nugget_queue` will revert to its default
+             state.
+           
+           - YOU MAY - revert back to the default `nugget_queue at any time by 
+             calling the builtin function: `new_queue()`  
+
+
+MOCKUP:
+
+###################################################################################
+GAME-TIME:	10:30:15	PLAYERS:		4
+CURRENT-RANK:	3rd		LEADER-SEND-RATE:	100Kb/s
+###################################################################################
+*YOUR-CURRENT-QUEUE-LENGTH*:		1354		
+YOUR-CURRENT-NUGGET-SEND-RATE:		40Kb/s
+YOUR-CURRENT-NUGGET-RECEIVE-RATE:	63Kb/s
+###################################################################################
+>>> 
+
